@@ -1,19 +1,27 @@
 https://www.youtube.com/watch?v=BCg4U1FzODs
 26:00
+
 *********************
 
 sudo npm i -g typescript
+
+tsc -v
+
+*******************
 
 compile index.ts to index.js:
 tsc                    //  compile all ts files
 tsc index              // compile only index.ts file
 tsc --watch index      //  live compiling compile
 
-
-Run Js file after compilation:
-node index.js
+********
 
 create config file:
 tsc --init
+
+********
+
+Run Js file after compilation:
+node index.js
 
 *******************

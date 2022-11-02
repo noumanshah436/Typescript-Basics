@@ -71,16 +71,20 @@ function log(message: string | number): void {
 }
 
 // Interfaces
-interface UserInterface {
+interface UserInterface {         // interface define the structure of something
   readonly id: number
   name: string
-  age?: number
+  age?: number                  // optional
 }
 
 const user1: UserInterface = {
   id: 1,
-  name: 'John',
+  name: 'John'
 }
+
+// user1.id = 5             //  readonly
+
+// ******************
 
 interface MathFunc {
   (x: number, y: number): number
@@ -89,7 +93,7 @@ interface MathFunc {
 const add: MathFunc = (x: number, y: number): number => x + y
 const sub: MathFunc = (x: number, y: number): number => x - y
 
-interface PersonInterface {
+interface PersonInterface {          //  in this interface we define how Person class will look like
   id: number
   name: string
   register(): string
@@ -113,7 +117,7 @@ class Person implements PersonInterface {
 const brad = new Person(1, 'Brad Traversy')
 const mike = new Person(2, 'Mike Jordan')
 
-// Subclasses
+// Inheritance ( subclasses )
 class Employee extends Person {
   position: string
 
