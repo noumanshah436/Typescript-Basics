@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=30LWjhZzg50
+https://www.typescriptlang.org/play
+https://www.typescriptlang.org/docs/handbook/intro.html
+
+nvm use 16
+sudo npm install -g typescript
+
+tsc -v
+Version 5.2.2
+
+**************
+
+$ nvm use 16
+
+$ tsc index.ts index.js
+This will compile index.ts and give converted javascript code in index.js
+
+If both file are of same name we can just run:
+$ tsc index.ts
+
+*********************
+
+compile automatically when we change typescript file using watch option
+$ tsc index.ts -w
+
+We can just add javascript file in index.html and open live servser
+
+*********************
+

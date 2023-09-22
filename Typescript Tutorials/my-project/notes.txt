@@ -1,0 +1,40 @@
+$ nvm use 16
+
+$ tsc sandbox.ts sandbox.js
+This will compile sandbox.ts and give converted javascript code in sandbox.js
+
+If both file are of same name we can just run:
+$ tsc sandbox.ts
+
+*********************
+
+compile automatically when we change typescript file using watch option
+$ tsc sandbox.ts -w
+
+We can just add javascript file in index.html and open live servser
+
+*********************
+
+
+1 - Introduction & Setup
+
+2 - Compiling TypeScript
+
+mkdir "3 - Type Basics"
+mkdir "4 - Objects & Arrays"
+mkdir "5 - Explicit Types"
+mkdir "6 - Dynamic (any) Types"
+mkdir "7 - Better Workflow & tsconfig"
+mkdir "8 - Function Basics"
+mkdir "9 Type Aliases"
+mkdir "10 - Function Signatures"
+mkdir "11 - The DOM & Type Casting"
+mkdir "12 - Classes"
+mkdir "13 - Public, Private & Readonly"
+mkdir "14 - Modules"
+mkdir "15 - Interfaces"
+mkdir "16 - Interfaces with Classes"
+mkdir "17 - Rendering an HTML Template"
+mkdir "18 - Generics"
+mkdir "19 - Enums"
+mkdir "20 - Tuples"

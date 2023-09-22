@@ -1,0 +1,9 @@
+tsc --init          // creates tsconfig.json
+
+npm init -y         // create package.json file
+
+
+tsc src/index.js  // compile and make file in same folder
+
+tsc -w            // use configurations of tsconfig.json file
+
